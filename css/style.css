@@ -1,0 +1,346 @@
+/* 🌙 Dark Theme */
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🏆 Navbar Styling */
+.navbar {
+  background: transparent;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.navbar-brand .logo-bold {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c47aff;
+}
+
+.demo-btn {
+  background-color: #9333ea;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.demo-btn:hover {
+  background-color: #7c2ae8;
+}
+
+/* 🎯 Hero Section */
+.hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero .highlight {
+  color: white;
+}
+
+.hero .gradient-text {
+  background: linear-gradient(90deg, #c47aff, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #b0b0b0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* 🎨 CTA Buttons */
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn-purple {
+  background: #9333ea;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: background 0.3s;
+}
+
+.btn-purple:hover {
+  background: #7c2ae8;
+}
+
+.btn-dark {
+  background: #2d2d2d;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-dark:hover {
+  background: #444;
+}
+
+.services-container {
+  padding: 50px 0;
+  text-align: center;
+}
+.service-box {
+  background-color: #181818;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.service-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.service-item {
+  background-color: #222;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.service-item:hover {
+  background-color: #333;
+}
+
+.card {
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card-title {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 14px;
+}
+.social span {
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.process-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.process-box {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+.process-box h3 {
+  font-weight: bold;
+  color: white;
+}
+.step-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #444;
+  color: #bbb;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.comparison-container,
+.process-container,
+.content-shoot-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.comparison-box {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+.comparison-box.space-media {
+  background-color: #6a0dad;
+}
+.comparison-box h3 {
+  font-weight: bold;
+  color: white;
+}
+.process-box {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+.step-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #444;
+  color: #bbb;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.content-shoot {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-text {
+  max-width: 50%;
+  text-align: left;
+}
+.content-video {
+  max-width: 40%;
+}
+.demo-btn {
+  background-color: #6a0dad;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.faq-container,
+.growth-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.accordion-item {
+  background-color: #222;
+  color: white;
+  border: none;
+}
+.accordion-button {
+  background-color: #222;
+  color: white;
+  border: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.growth-box {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.growth-box h3 {
+  font-weight: bold;
+  color: #6a0dad;
+}
+.growth-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.instagram-container,
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.instagram-box {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+.instagram-box h3 {
+  font-weight: bold;
+}
+.insta-posts {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+.insta-post {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 250px;
+}
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #6a0dad;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
