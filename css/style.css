@@ -865,3 +865,10 @@ body {
   width: 50%;
   margin-top: 1%;
 }
+
+.footer-logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-right: 10px;
+}
