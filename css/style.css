@@ -872,3 +872,118 @@ body {
   color: white;
   margin-right: 10px;
 }
+
+.btn-purple {
+  background: #9333ea;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  /* margin-right: 0px; */
+  /* margin-bottom: 10px; */
+  transition: background 0.3s;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.process-box3 {
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 87px 30px;
+  text-align: left;
+  height: auto;
+  width: 50%;
+  margin: 0px;
+  color: black;
+  margin-top: 10px;
+}
+
+.process-boxx {
+  background-color: #0c0c0c;
+  border-radius: 10px;
+  padding: 87px 30px;
+  text-align: left;
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .btn-purple {
+    background: #9333ea;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 0px;
+    /* margin-bottom: 10px; */
+    transition: background 0.3s;
+  }
+
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 0px;
+    width: 100%;
+    /* margin: 10px 10px; */
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+
+  .process-box {
+    background-color: #0c0c0c;
+    border-radius: 10px;
+    padding: 87px 30px;
+    text-align: left;
+    position: relative;
+    height: auto;
+    font-size: 13px;
+  }
+
+  .border-area-two h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .border-area-two p {
+    padding-top: 20px;
+    font-size: 11px;
+    max-width: 800px;
+    color: rgba(245, 245, 245, 0.742);
+  }
+
+  .space {
+    width: 47%;
+    height: 100%;
+    background-color: #000;
+    text-align: left;
+  }
+
+  .space_contact {
+    width: 47%;
+    height: 100%;
+    background-color: #000;
+    text-align: right;
+  }
+
+  .remove-item {
+    display: none;
+  }
+}
