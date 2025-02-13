@@ -987,3 +987,6 @@ body {
     display: none;
   }
 }
+.remove-item-pc {
+  display: none;
+}
